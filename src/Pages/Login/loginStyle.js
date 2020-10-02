@@ -32,12 +32,12 @@ const styles = {
         backgroundColor: brancoPadrao,
         height: '10%',
         width: '100%',
-        fontSize: '120%',
+        fontSize: '28px',
         fontFamily: fontPadrao,
         color: fontCinzaEscuro,
         paddingLeft: '5%',
         alignItems: 'center',
-        outline: '0px'
+        outline: '0px',
     },
 
     typoDiv: {

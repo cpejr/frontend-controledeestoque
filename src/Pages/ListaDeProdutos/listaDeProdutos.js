@@ -179,7 +179,7 @@ export default function ListaDeProdutos() {
                             </div>
                             <div style={styles.productDiv}>
                                 <Typography style={styles.typoStyleProduct}>
-                                    {item.amount}
+                                    {item.amount} 
                                 </Typography>
                             </div>
                         </div>

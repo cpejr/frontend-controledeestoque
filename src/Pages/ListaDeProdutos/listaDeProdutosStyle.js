@@ -92,7 +92,7 @@ const styles = {
         backgroundColor: brancoPadrao,
         marginTop: '3%',
         border:'0.5px solid #707070',
-        borderRadius:'20px',
+        borderRadius:'20px 20px 0px 0px',
     },
     titleContainer:{
         height: '20%',

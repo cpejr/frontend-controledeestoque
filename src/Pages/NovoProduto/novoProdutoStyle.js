@@ -17,6 +17,7 @@ const styles = {
         height: '100%',
         width: '20%',
         justifyContent: "center",
+        
     },
     label: {
         fontFamily: fontPadrao,
@@ -35,6 +36,7 @@ const styles = {
     },
     input: {
         height: '50px',
+        fontSize:'18px'
     },
 
 
@@ -44,6 +46,7 @@ const styles = {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        
     },
     width: '100%',
     text_box: {
@@ -52,13 +55,14 @@ const styles = {
         width: '100%',
         padding: '0',
         margin: '0',
+        
     },
     textarea: {
         boxSizing: 'border-box',
         minWidth: '100%',
         maxWidth: '100%',
-        padding: '0',
-        margin: '0',
+        padding: '0px',
+        margin: '0px',
     },
 
 
