@@ -36,7 +36,8 @@ const styles = {
         fontFamily: fontPadrao,
         color: fontCinzaEscuro,
         paddingLeft: '5%',
-        alignItems: 'center'
+        alignItems: 'center',
+        outline: '0px'
     },
 
     typoDiv: {

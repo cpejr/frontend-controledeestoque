@@ -16,6 +16,8 @@ const styles = {
       flexDirection: 'row',
       alignItems: 'center',
       border:'0.5px solid #707070',
+      borderRadius:'20px'
+      
     },
     fieldContainer:{
         display: 'flex',
@@ -38,7 +40,9 @@ const styles = {
         color: fontCinzaEscuro,
         paddingLeft: '5%',
         alignItems: 'center',
-        textTransform: 'uppercase'
+        textTransform: 'uppercase',
+        outline: 'none',
+    
     },
 
     selectContainer:{
@@ -63,7 +67,8 @@ const styles = {
         color: fontCinzaEscuro,
         paddingLeft: '5%',
         alignItems: 'center',
-        textTransform: 'uppercase'
+        textTransform: 'uppercase',
+        outline:'none'
     },
 
     buttonSearch: {
@@ -87,6 +92,7 @@ const styles = {
         backgroundColor: brancoPadrao,
         marginTop: '3%',
         border:'0.5px solid #707070',
+        borderRadius:'20px',
     },
     titleContainer:{
         height: '20%',
@@ -96,7 +102,8 @@ const styles = {
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        borderRadius:'20px 20px 0px 0px',
     },
 
     titleDiv:{
@@ -104,6 +111,7 @@ const styles = {
         borderRight: '0.2px solid #707070',
         display: 'flex',
         justifyContent: 'center',
+
     },
 
     typoStyleTitle:{
@@ -129,7 +137,8 @@ const styles = {
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'center',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        
     },
     productDiv:{
         width: '20%',
