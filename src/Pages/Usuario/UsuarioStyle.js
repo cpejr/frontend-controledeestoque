@@ -80,7 +80,7 @@ const styles = {
         borderRadius: '50px',
         marginTop: '0%',
         backgroundColor: azulPadrao,
-        padding: '20px 60px 20px 60px',
+        padding: '10px 25px 10px 25px',
         fontSize: fontSizePadrao,
         fontFamily: fontPadrao,
         color: brancoPadrao,
@@ -105,10 +105,11 @@ const styles = {
 
     buttonChangePassword: {
         borderRadius: '50px',
-        marginTop: '0%',
+        marginTop: '10px',
+        marginBottom: '10px',
         backgroundColor: azulPadrao,
-        padding: '10px 40px 10px 40px',
-        fontSize: '2em',
+        padding: '10px 15px 10px 15px',
+        fontSize: '15pt',
         fontFamily: fontPadrao,
         color: brancoPadrao,
         alignItems: 'center',
