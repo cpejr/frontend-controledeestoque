@@ -9,7 +9,7 @@ const styles = {
         height: '100%',
         width: '100%',
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
     },
     input_box: {
         display: 'flex',
@@ -36,7 +36,10 @@ const styles = {
     },
     input: {
         height: '50px',
-        fontSize:'18px'
+        fontSize:'18px',
+        borderRadius:'10px',
+        outline: 'none'
+
     },
 
 
@@ -61,8 +64,12 @@ const styles = {
         boxSizing: 'border-box',
         minWidth: '100%',
         maxWidth: '100%',
-        padding: '0px',
+        padding: '5px',
         margin: '0px',
+        borderRadius:'20px',
+        outline: 'none',
+        fontSize: '18px'
+
     },
 
 

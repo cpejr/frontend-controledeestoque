@@ -14,6 +14,8 @@ const styles = {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        borderRadius:'20px'
+
     },
 
     ShoppingListTitle: {
