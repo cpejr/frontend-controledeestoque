@@ -58,22 +58,6 @@ export default function ListaDeUsuarios() {
     name.userName.toLocaleLowerCase().includes(search.toLowerCase())
   );
 
-  function isInFilteredNames(filteredNames, user) {
-    let pin = 0;
-    filteredNames.map((pessoa) => {
-      if (pessoa.userName == user) {
-        pin += 1;
-      }
-    });
-    if (pin > 1) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-  console.log(filteredNames);
-
   return (
     <div
       style={{ minHeight: "100%", display: "flex", flexDirection: "column" }}
