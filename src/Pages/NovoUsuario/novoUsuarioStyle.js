@@ -38,6 +38,8 @@ const styles = {
         fontFamily: fontPadrao,
         color: fontCinzaEscuro,
         paddingLeft: '2%',
+        borderRadius:'10px'
+
     }, 
 
     userTypeAndSendContainer:{
@@ -45,6 +47,7 @@ const styles = {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        
     },
 
     userTyperContainer: {
@@ -53,6 +56,7 @@ const styles = {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        
     },
 
     handMadeRadio: {
@@ -62,7 +66,9 @@ const styles = {
         width: '60%',
         cursor: 'pointer',
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
+        borderRadius:'20px',
+        margin: '7px'
     },
     
     emptyCircle: {

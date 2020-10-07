@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useHistory } from "react-router-dom";
 import styles from "./ListaDeUsuariosStyle";
 import produtostyles from "../ListaDeProdutos/listaDeProdutosStyle";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
 
 let USERS = [
   {
@@ -74,8 +76,8 @@ export default function ListaDeUsuarios() {
         {filteredNames.map((user) => {
           if (user.userType === "Admin") {
             return (
-              <div
-                style={styles.userContainer}
+              <ul
+                style={styles.listitem}
                 onClick={() => {
                   history.push({
                     pathname: "/usuario",
@@ -86,8 +88,8 @@ export default function ListaDeUsuarios() {
                   });
                 }}
               >
-                <div>{user.userName}</div>
-              </div>
+                <ul>{user.userName}</ul>
+              </ul>
             );
           }
         })}
@@ -98,8 +100,8 @@ export default function ListaDeUsuarios() {
         {filteredNames.map((user) => {
           if (user.userType === "Manager") {
             return (
-              <div
-                style={styles.userContainer}
+              <ul
+                style={styles.listitem}
                 onClick={() => {
                   history.push({
                     pathname: "/usuario",
@@ -109,8 +111,8 @@ export default function ListaDeUsuarios() {
                   });
                 }}
               >
-                <div>{user.userName}</div>
-              </div>
+                <ul>{user.userName}</ul>
+              </ul>
             );
           }
         })}
@@ -121,8 +123,8 @@ export default function ListaDeUsuarios() {
         {filteredNames.map((user) => {
           if (user.userType === "Employee") {
             return (
-              <div
-                style={styles.userContainer}
+              <ul
+                style={styles.listitem}
                 onClick={() => {
                   history.push({
                     pathname: "/usuario",
@@ -132,8 +134,8 @@ export default function ListaDeUsuarios() {
                   });
                 }}
               >
-                <div>{user.userName}</div>
-              </div>
+                <ul>{user.userName}</ul>
+              </ul>
             );
           }
         })}

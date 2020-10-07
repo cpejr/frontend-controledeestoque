@@ -41,7 +41,8 @@ const styles = {
         display: 'flex',
         margin: '5% 2% 2% 2%',
         backgroundColor: brancoPadrao,
-        flexDirection: 'column'
+        flexDirection: 'column',
+        borderRadius: '20px'
     },
 
     tittleBox:{
@@ -66,7 +67,8 @@ const styles = {
         alignItems: 'center',
         justifyContent: 'space-evenly',
         height: '100%',
-        flexDirection: 'column'
+        flexDirection: 'column',
+
     },
 
     buttonContainer:{
@@ -100,7 +102,8 @@ const styles = {
     changePassword: {
         height: '20%',
         width: '80%',
-        fontSize: '2em'
+        fontSize: '2em',
+        borderRadius:'10px'
     },
 
     buttonChangePassword: {
