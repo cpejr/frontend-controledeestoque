@@ -8,11 +8,13 @@ import {
 
 const styles = {
   userTypeContainer: {
-    display: "flex",
+    display: "block",
     alignItems: "center",
     justifyContent: "space-evenly",
     flexWrap: "wrap",
     minHeight: "25%",
+    width: "22%",
+    paddingLeft: "38%",
   },
   userContainer: {
     backgroundColor: "#ffff",
@@ -35,6 +37,7 @@ const styles = {
   listitem:{
     fontFamily: fontPadrao,
     fontSize: fontSizePadrao,
+    backgroundColor: brancoPadrao,
     
   },
   userTypeHeader: {
@@ -43,6 +46,7 @@ const styles = {
     fontWeight: "600",
     color: "#043741",
     marginTop: "3vh",
+    marginRight: "4vh",
   },
 
   inputField: {
