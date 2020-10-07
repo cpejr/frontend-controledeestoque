@@ -32,6 +32,11 @@ const styles = {
     paddingRight: "2vh",
     cursor: "pointer",
   },
+  listitem:{
+    fontFamily: fontPadrao,
+    fontSize: fontSizePadrao,
+    
+  },
   userTypeHeader: {
     alignSelf: "center",
     fontSize: "3vh",
